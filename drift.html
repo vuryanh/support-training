@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkrSkrr</title>
+</head>
+<body>
+    <img class="sleepy-cat" src="https://cats.imgix.net/1800x1200_cat_relaxing_on_patio_other.webp?w=400" data-zoom="https://cats.imgix.net/1800x1200_cat_relaxing_on_patio_other.webp?w=2000">
+    <div class="box"></div>
+</body>
+<script src="node_modules/drift-zoom/dist/Drift.js"></script>
+<script>
+    var demoTrigger = document.querySelector('.sleepy-cat');
+    var paneContainer = document.querySelector('.box');
+    new window.Drift(demoTrigger, {
+    paneContainer: paneContainer,
+    inlinePane: false,
+    });
+</script>
+</html>
