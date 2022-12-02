@@ -1,6 +1,6 @@
 # Github training
 
-This repo is intended to help you understand how to use Github.
+This repo is intended to help you understand how to use Github properly.
 
 # Useful links
 
